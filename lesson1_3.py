@@ -7,12 +7,19 @@
 # 385916 >>> yes
 # 123456 >>> no
 
+# ticket = input("Введите номер билета:>> ")
+#
+# first_num = int(ticket[0]) + int(ticket[1]) + int(ticket[2])
+# second_num = int(ticket[3]) + int(ticket[4]) + int(ticket[5])
+#
+# if first_num == second_num:
+#     print("yes")
+# else:
+#     print("no")
+
 ticket = input("Введите номер билета:>> ")
 
 first_num = int(ticket[0]) + int(ticket[1]) + int(ticket[2])
 second_num = int(ticket[3]) + int(ticket[4]) + int(ticket[5])
 
-if first_num == second_num:
-    print("yes")
-else:
-    print("no")
+print("yes" if first_num == second_num else "no")
